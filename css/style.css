@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 1215px;
+    grid-gap: 50px;
+}
+
+#info{    
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(255, 200, 0);
+}
+
+#portrait{
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    width: 225px;
+    height: 225px;
+}
+img{
+    width: 225px;
+    height: 225px;
+    border-radius: 125px;
+}
+
+.infoTitle{
+    margin: 5px 0;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 200, 0);
+    background-color: rgb(50, 50, 50);
+}
+.infop{
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+#life{
+    display: flex;
+    flex-flow: column nowrap;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 315px;
+}
+#position{
+    font-size: 24px;
+    margin: 0;
+    top: 5px;
+}
+span{
+    color: rgb(255, 200, 0);
+}
+
+.lifeTitle{
+    margin: 5px 0;
+    font-size: 26px;
+    padding: 10px;
+}
+hr{
+    width: 100%;
+}
+.lifeinfo{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 10px;
+}
