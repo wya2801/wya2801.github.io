@@ -3,6 +3,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: 1215px;
+    height: 1720px;
     grid-gap: 50px;
 }
 
