@@ -5,14 +5,16 @@ body {
     width: 1215px;
     height: 1720px;
     grid-gap: 50px;
+
 }
+
 
 #info{    
     display: flex;
     flex-flow: column nowrap;
     background-color: rgb(255, 200, 0);
+    justify-content: space-between;
 }
-
 #portrait{
     height: 315px;
     display: flex;
@@ -20,16 +22,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-#image{
-    width: 225px;
-    height: 225px;
-}
-img{
+#myself{
     width: 225px;
     height: 225px;
     border-radius: 125px;
 }
-
 .infoTitle{
     margin: 5px 0;
     font-size: 26px;
@@ -42,6 +39,20 @@ img{
     margin: 10px 0;
     padding: 10px 20px;
 }
+#HOBBIES{
+    height: 120px;
+    padding: 0 40px;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#misc{
+    width: 65px;
+    height: 65px;
+    border-radius: 125px;
+}
+
 
 #life{
     display: flex;
@@ -57,15 +68,19 @@ h1{
     justify-content: center;
     height: 315px;
 }
-#position{
+#FirstName{
+    color: rgb(255, 200, 0);
+}
+#job{
     font-size: 24px;
     margin: 0;
     top: 5px;
 }
-span{
-    color: rgb(255, 200, 0);
+#under{
+    border: 0 0 0 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 200, 0);
 }
-
 .lifeTitle{
     margin: 5px 0;
     font-size: 26px;
@@ -78,4 +93,15 @@ hr{
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-gap: 10px;
+}
+.listfig{ color: rgb(255, 200, 0); }
+.listfig2{
+    color: rgb(255, 200, 0);
+    list-style-type: none;
+}
+.listcon{ color: black; }
+.DetailTitle{
+    font-size: 21px;
+    font-weight: 550;
+    margin-bottom: 0;
 }
