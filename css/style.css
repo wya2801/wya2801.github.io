@@ -105,3 +105,9 @@ hr{
     font-weight: 550;
     margin-bottom: 0;
 }
+
+#ref{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
