@@ -2,8 +2,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: 1215px;
-    height: 1720px;
+    width: 80%;
     grid-gap: 50px;
 
 }
